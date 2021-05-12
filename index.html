@@ -40,6 +40,28 @@
       });
     }
   </script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-messaging.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyC3A2_8bdsA3YiSxY0tCHATe6RAbqmsekk",
+      authDomain: "seeds-77371.firebaseapp.com",
+      databaseURL: "https://seeds-77371.firebaseio.com",
+      projectId: "seeds-77371",
+      storageBucket: "seeds-77371.appspot.com",
+      messagingSenderId: "366914936426",
+      appId: "1:366914936426:web:cfc1c6bd8c81fbad1a3413"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
